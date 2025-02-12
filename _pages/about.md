@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shahriar Hasan Emon"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
