@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "Shahriar Hasan Emon"
+title: "About me"
+meta_title: "Shahriar Hasan Emon"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 
 Hello! I'm Shahriar Hasan Emon, an undergraduate student studying Linguistics at [University of Dhaka](https://www.du.ac.bd/). My academic curiosity leans towards Phonetics (which means I make weird noises that freak people out), Phonology, Syntax and South Asian languages, especially Bengali. I am equally drawn to Mathematics, my first love, and Computer Science. I wish to explore the intersection of these fields through Formal Language Theory, NLP, and Computational Linguistics.  
 
