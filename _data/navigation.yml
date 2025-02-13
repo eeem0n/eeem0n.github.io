@@ -5,11 +5,9 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Interests"
-    url: /interests/
-    
+
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /blogposts/
+  - title: "Writing"
+    url: /Writing/
