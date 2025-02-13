@@ -6,6 +6,9 @@
 
 main:
 
+- title: "Interests"
+    url: /interests/
+        
   - title: "Portfolio"
     url: /portfolio/
         
