@@ -1,6 +1,6 @@
 ---
 permalink: /writing/
-title: "title"
+title: "Writing"
 meta_title: "Shahriar Hasan Emon"
 author_profile: true
 
