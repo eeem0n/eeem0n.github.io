@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Shahriar Hasan Emon"
 description              : &description ""
 URL                      : "https://eeem0n.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site
 repository               : "eeem0n/eeem0n.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
