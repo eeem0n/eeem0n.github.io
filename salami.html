@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salami Me</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #e2136e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 360px;
+    background: white;
+    border-radius: 20px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  }
+
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e2136e;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #222;
+  }
+
+  p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .number {
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    background: #e2136e;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  button:active {
+    transform: scale(0.97);
+  }
+
+  .call {
+    display: block;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    background: #111;
+    color: white;
+    font-size: 15px;
+  }
+
+  #msg {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #e2136e;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="logo">bKash</div>
+
+  <h1>💸 Salami me</h1>
+  <p>Tap below to copy my number</p>
+
+  <div class="number">017XXXXXXXX</div>
+
+  <button onclick="copyNumber()">📋 Copy Number</button>
+
+  <a class="call" href="tel:+88017XXXXXXXX">📞 Call</a>
+
+  <div id="msg"></div>
+</div>
+
+<script>
+function copyNumber() {
+  navigator.clipboard.writeText("017XXXXXXXX");
+  document.getElementById("msg").innerText = "✔ Number copied!";
+}
+</script>
+
+</body>
+</html>
