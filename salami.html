@@ -18,72 +18,72 @@
 
   .container {
     width: 90%;
-    max-width: 360px;
+    max-width: 340px;
     background: white;
-    border-radius: 20px;
-    padding: 25px 20px;
+    border-radius: 18px;
+    padding: 22px 18px;
     text-align: center;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
   }
 
   .logo {
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
     color: #e2136e;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   h1 {
-    margin: 10px 0;
-    font-size: 22px;
+    margin: 6px 0;
+    font-size: 20px;
     color: #222;
   }
 
   p {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 25px;
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 20px;
   }
 
   .number {
-    background: #f5f5f5;
-    padding: 12px;
+    background: #f7f7f7;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
   }
 
   button {
     width: 100%;
-    padding: 14px;
+    padding: 13px;
     border: none;
-    border-radius: 12px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 15px;
     background: #e2136e;
     color: white;
     cursor: pointer;
-    transition: 0.2s;
   }
 
   button:active {
     transform: scale(0.97);
   }
 
-  .call {
-    display: block;
+  #msg {
     margin-top: 10px;
-    padding: 12px;
-    border-radius: 12px;
-    text-decoration: none;
-    background: #111;
-    color: white;
-    font-size: 15px;
+    font-size: 13px;
+    color: #e2136e;
   }
 
-  #msg {
-    margin-top: 12px;
-    font-size: 14px;
+  .home {
+    margin-top: 18px;
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+  }
+
+  .home:hover {
     color: #e2136e;
   }
 </style>
@@ -94,22 +94,22 @@
 <div class="container">
   <div class="logo">bKash</div>
 
-  <h1>💸 Salami me</h1>
-  <p>Tap below to copy my number</p>
+  <h1>ঈদ মোবারক! ঈদ মোবারক!</h1>
+  <p>Tap to copy my number</p>
 
-  <div class="number">017XXXXXXXX</div>
+  <div class="number">01854361640</div>
 
-  <button onclick="copyNumber()">📋 Copy Number</button>
-
-  <a class="call" href="tel:+88017XXXXXXXX">📞 Call</a>
+  <button onclick="copyNumber()"> Copy Number </button>
 
   <div id="msg"></div>
+
+  <a class="home" href="/"> Shahriar Hasan Emon </a>
 </div>
 
 <script>
 function copyNumber() {
   navigator.clipboard.writeText("017XXXXXXXX");
-  document.getElementById("msg").innerText = "✔ Number copied!";
+  document.getElementById("msg").innerText = "Copied!";
 }
 </script>
 
